@@ -20,3 +20,4 @@ a2ensite glpi
 /etc/init.d/apache2 reload
 #mysql -u root -p
 #GRANT all privileges ON glpi.* TO glpi@localhost IDENTIFIED BY 'glpi';
+#glpi/glpi for the administrator account
