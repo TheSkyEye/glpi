@@ -18,5 +18,5 @@ echo '<VirtualHost *:80>
 a2ensite glpi
 chown -R www-data:www-data /var/www/glpi
 /etc/init.d/apache2 reload
-mysql -u root -p
-GRANT all privileges ON glpi.* TO glpi@localhost IDENTIFIED BY 'glpi';
+#mysql -u root -p
+#GRANT all privileges ON glpi.* TO glpi@localhost IDENTIFIED BY 'glpi';
