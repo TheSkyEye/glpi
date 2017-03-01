@@ -2,6 +2,7 @@
 apt-get install -y apache2 php5 libapache2-mod-php5 php5-mysql php5-gdphp5 php5-imap php5-ldap php5-curl mysql-server mysql-client
 wget --no-check-certificate https://github.com/glpi-project/glpi/releases/download/9.1.2/glpi-9.1.2.tgz
 tar xvf glpi-9.1.2.tgz
+exit 0
 mv glpi /var/www/
 chown -R www-data:www-data glpi/
 chmod -R 777 /var/www/glpi/
