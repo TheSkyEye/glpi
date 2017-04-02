@@ -1,6 +1,6 @@
 #!/bin/bash
 glpi_version="9.1.2"
-apt-get install -y apache2 php5 libapache2-mod-php5 php5-mysql php5-imap php5-ldap php5-curl mysql-server mysql-client ntp
+apt-get install -y apache2 php5 libapache2-mod-php5 php5-mysql php5-imap php5-ldap php5-gd php5-curl mysql-server mysql-client ntp
 cd /var/www/html
 wget --no-check-certificate https://github.com/glpi-project/glpi/releases/download/$glpi_version/glpi-$glpi_version.tgz
 tar xvf glpi-$glpi_version.tgz
