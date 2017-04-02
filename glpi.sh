@@ -22,8 +22,8 @@ echo 'server {
 # server {
   # listen 443 ssl;
   # server_name glpi;
-  # ssl_certificate /etc/ssl/nginx/owncloud.crt;
-  # ssl_certificate_key /etc/ssl/nginx/owncloud.key;
+  # ssl_certificate /etc/ssl/nginx/glpi.crt;
+  # ssl_certificate_key /etc/ssl/nginx/glpi.key;
   # ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH";
   # ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
   # ssl_prefer_server_ciphers on;
