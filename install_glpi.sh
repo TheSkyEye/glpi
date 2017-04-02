@@ -35,3 +35,6 @@ mv dashboard/ /var/www/html/glpi/plugins/
 wget --no-check-certificate https://github.com/pluginsGLPI/ocsinventoryng/releases/download/1.3.3/glpi-ocsinventoryng-1.3.3.tar.gz
 tar xzf glpi-ocsinventoryng-1.3.3.tar.gz
 mv ocsinventoryng/ /var/www/html/glpi/plugins/
+wget --no-check-certificate https://forge.glpi-project.org/attachments/download/1211/glpi-massocsimport-1.6.1.tar.gz
+tar xzf glpi-massocsimport-1.6.1.tar.gz
+mv massocsimport/  /var/www/html/glpi/plugins/
