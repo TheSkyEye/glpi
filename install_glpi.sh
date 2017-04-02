@@ -39,4 +39,7 @@ tar xzf glpi-ocsinventoryng-1.3.3.tar.gz
 mv ocsinventoryng/ /var/www/html/glpi/plugins/
 wget --no-check-certificate https://forge.glpi-project.org/attachments/download/1211/glpi-massocsimport-1.6.1.tar.gz
 tar xzf glpi-massocsimport-1.6.1.tar.gz
-mv massocsimport/  /var/www/html/glpi/plugins/
+mv massocsimport/ /var/www/html/glpi/plugins/
+wget --no-check-certificate https://forge.glpi-project.org/attachments/download/2143/glpi-archires-2.3.tar.gz
+tar xzf glpi-archires-2.3.tar.gz
+mv archires /var/www/html/glpi/plugins/
